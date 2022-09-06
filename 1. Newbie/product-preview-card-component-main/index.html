@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"></script>
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link href="styles/style.css" rel="stylesheet" type="text/css">	
+  <link href="styles/style.scss" rel="stylesheet" type="text/css">	
+  <!--Fonts-->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,700&family=Montserrat:wght@500;700&display=swap" rel="stylesheet">
+  <title>Frontend Mentor | Product preview card component</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+</head>
+<body>
+  <div class="container-fluid" id="challange_content">
+    <div class="container-fluid" id="body-product">
+      <div class="container" id="body-product-image">
+        <img src="images/image-product-desktop.jpg" class="img-fluid" alt="Perfume Image" id="img-desktop">
+        <img src="images/image-product-mobile.jpg" class="img-fluid" alt="Perfume Image" id="img-mobile">
+      </div>
+      <div class="container" id="body-product-info">
+        <div class="container" id="body-product-info_header">
+          <p>Perfume</p>
+        </div>
+        <div class="container-fluid" id="body-product-info_title">
+          <p>Gabrielle Essence Eau De Parfum</p>
+        </div>
+        <div class="container-fluid" id="body-product-info_desc">
+          <p>A floral, solar and voluptuous interpretation composed by Olivier Polge, 
+            Perfumer-Creator for the House of CHANEL.</p>
+        </div>
+        <div class="container" id="body-product-info_price">
+          <div id="price_primary">
+            <p >$149.99</p>
+          </div>
+          <div id="price_strike">
+            <p >$169.99</p>
+          </div>
+        </div>
+         <div class="container" id="body-product-info_button">
+          <button type="button" class="btn btn-primary">
+            <img src="images/icon-cart.svg" alt="Shopping Cart Icon">
+            <p>Add to Cart</p>
+            </button>
+         </div>
+      </div>
+    </div>
+
+    <div class="attribution">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+      Coded by <a href="#">Nate Weber</a>.
+    </div>
+  </div>
+</body>
+</html>

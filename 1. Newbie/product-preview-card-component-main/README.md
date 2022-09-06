@@ -27,7 +27,7 @@ Users should be able to:
 
 ### Screenshot
 
-![img-final.png]
+![Final Solution](image-final.png)
 
 ### Links
 

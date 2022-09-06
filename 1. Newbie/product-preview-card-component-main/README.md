@@ -31,7 +31,7 @@ Users should be able to:
 
 ### Links
 
-- Live Site URL: [Add live site URL here](http://frontend-mentor.nateweber.name/1.%20Newbie/product-preview-card-component-main/index.html)
+- Live Site URL: [Solution](http://frontend-mentor.nateweber.name/1.%20Newbie/product-preview-card-component-main/index.html)
 
 ## My process
 

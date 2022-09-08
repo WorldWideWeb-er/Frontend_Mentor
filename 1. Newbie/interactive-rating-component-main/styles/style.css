@@ -1,0 +1,253 @@
+body {
+  height: 99vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(20, 21, 25);
+}
+body #challange-info #body-rating {
+  width: 90vw;
+  height: 475px;
+  font-family: "Overpass";
+  border-radius: 25px;
+  background-color: rgb(30, 37, 47);
+  background: radial-gradient(circle at top, #222933, #171E28);
+  color: hsl(0deg, 0%, 100%);
+  padding: 10% 5%;
+}
+body #challange-info #body-rating #body-rating_star {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50px;
+  height: 50px;
+  margin-left: 3.5%;
+  margin-bottom: 7%;
+  background-color: rgb(38, 47, 56);
+  border-radius: 25px;
+}
+body #challange-info #body-rating #body-rating_header {
+  font-size: 32px;
+  font-weight: 700;
+  margin-bottom: 3%;
+}
+body #challange-info #body-rating #body-rating_info {
+  color: hsl(216deg, 12%, 54%);
+  font-weight: 400;
+  line-height: normal;
+}
+body #challange-info #body-rating #body-rating_rate ul {
+  display: flex;
+  flex-direction: row;
+  list-style-type: none;
+  justify-content: space-between;
+  color: hsl(216deg, 12%, 54%);
+  padding: 0;
+  margin: 7.5% 0;
+}
+body #challange-info #body-rating #body-rating_rate ul li {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50px;
+  height: 50px;
+  background-color: rgb(38, 47, 56);
+  border-radius: 30px;
+  font-weight: 700;
+}
+body #challange-info #body-rating #body-rating_rate ul li:active {
+  color: hsl(0deg, 0%, 100%);
+  background-color: hsl(216deg, 12%, 54%);
+  cursor: pointer;
+}
+body #challange-info #body-rating #body-rating_rate ul .selectedRating {
+  color: hsl(0deg, 0%, 100%);
+  background-color: hsl(25deg, 97%, 53%);
+}
+body #challange-info #body-rating #body-rating_button button {
+  width: 100%;
+  padding: 3% 0;
+  background-color: hsl(25deg, 97%, 53%);
+  border-radius: 25px;
+  border: none;
+  font-weight: 700;
+}
+body #challange-info #body-rating #body-rating_button button:hover {
+  color: hsl(25deg, 97%, 53%);
+  background-color: hsl(0deg, 0%, 100%);
+}
+body #challange-info #body-rating #body-rating_button button:active {
+  border: none;
+}
+body #challange-info #body-response {
+  display: none;
+  flex-direction: column;
+  width: 90vw;
+  height: 475px;
+  font-family: "Overpass";
+  border-radius: 25px;
+  background-color: rgb(30, 37, 47);
+  background: radial-gradient(circle at top, #222933, #171E28);
+  color: hsl(0deg, 0%, 100%);
+  padding: 10% 5%;
+}
+body #challange-info #body-response #body-response_img {
+  display: flex;
+  justify-content: center;
+  padding: 2.5% 0;
+}
+body #challange-info #body-response #body-response_rating {
+  display: flex;
+  justify-content: center;
+  padding: 5% 0;
+}
+body #challange-info #body-response #body-response_rating p {
+  padding: 2% 4%;
+  background-color: rgb(38, 47, 56);
+  color: hsl(25deg, 97%, 53%);
+  border-radius: 25px;
+}
+body #challange-info #body-response #body-response_header {
+  font-family: "Overpass";
+  font-weight: 700;
+  font-size: 32px;
+  text-align: center;
+  color: hsl(0deg, 0%, 100%);
+}
+body #challange-info #body-response #body-response_info {
+  font-family: "Overpass";
+  font-size: 18px;
+  text-align: center;
+  color: hsl(0deg, 0%, 100%);
+}
+body #challange-info .attribution {
+  color: hsl(0deg, 0%, 100%);
+}
+
+@media screen and (min-width: 450px) {
+  body {
+    height: 99vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(20, 21, 25);
+  }
+  body #challange-info #body-rating {
+    width: 500px;
+    height: 475px;
+    font-family: "Overpass";
+    border-radius: 25px;
+    background-color: rgb(30, 37, 47);
+    background: radial-gradient(circle at top, #222933, #171E28);
+    color: hsl(0deg, 0%, 100%);
+    padding: 3% 2.5%;
+  }
+  body #challange-info #body-rating #body-rating_star {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    height: 50px;
+    margin-left: 3.5%;
+    margin-bottom: 7%;
+    background-color: rgb(38, 47, 56);
+    border-radius: 25px;
+  }
+  body #challange-info #body-rating #body-rating_header {
+    font-size: 32px;
+    font-weight: 700;
+    margin-bottom: 3%;
+  }
+  body #challange-info #body-rating #body-rating_info {
+    color: hsl(216deg, 12%, 54%);
+    font-weight: 400;
+    line-height: normal;
+  }
+  body #challange-info #body-rating #body-rating_rate ul {
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    justify-content: space-between;
+    color: hsl(216deg, 12%, 54%);
+    padding: 0;
+    margin: 7.5% 0;
+  }
+  body #challange-info #body-rating #body-rating_rate ul li {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 60px;
+    height: 60px;
+    background-color: rgb(38, 47, 56);
+    border-radius: 30px;
+    font-weight: 700;
+  }
+  body #challange-info #body-rating #body-rating_rate ul li:hover {
+    color: hsl(0deg, 0%, 100%);
+    background-color: hsl(216deg, 12%, 54%);
+    cursor: pointer;
+  }
+  body #challange-info #body-rating #body-rating_rate ul .selectedRating {
+    color: hsl(0deg, 0%, 100%);
+    background-color: hsl(25deg, 97%, 53%);
+  }
+  body #challange-info #body-rating #body-rating_button button {
+    width: 100%;
+    padding: 3% 0;
+    background-color: hsl(25deg, 97%, 53%);
+    border-radius: 25px;
+    border: none;
+    font-weight: 700;
+  }
+  body #challange-info #body-rating #body-rating_button button:hover {
+    color: hsl(25deg, 97%, 53%);
+    background-color: hsl(0deg, 0%, 100%);
+  }
+  body #challange-info #body-rating #body-rating_button button:active {
+    border: none;
+  }
+  body #challange-info #body-response {
+    display: none;
+    flex-direction: column;
+    width: 500px;
+    height: 475px;
+    font-family: "Overpass";
+    border-radius: 25px;
+    background-color: rgb(30, 37, 47);
+    background: radial-gradient(circle at top, #222933, #171E28);
+    color: hsl(0deg, 0%, 100%);
+    padding: 3% 2.5%;
+  }
+  body #challange-info #body-response #body-response_img {
+    display: flex;
+    justify-content: center;
+    padding: 2.5% 0;
+  }
+  body #challange-info #body-response #body-response_rating {
+    display: flex;
+    justify-content: center;
+    padding: 5% 0;
+  }
+  body #challange-info #body-response #body-response_rating p {
+    padding: 2% 4%;
+    background-color: rgb(38, 47, 56);
+    color: hsl(25deg, 97%, 53%);
+    border-radius: 25px;
+  }
+  body #challange-info #body-response #body-response_header {
+    font-family: "Overpass";
+    font-weight: 700;
+    font-size: 32px;
+    text-align: center;
+    color: hsl(0deg, 0%, 100%);
+  }
+  body #challange-info #body-response #body-response_info {
+    font-family: "Overpass";
+    font-size: 18px;
+    text-align: center;
+    color: hsl(0deg, 0%, 100%);
+  }
+  body #challange-info .attribution {
+    color: hsl(0deg, 0%, 100%);
+  }
+}/*# sourceMappingURL=style.css.map */

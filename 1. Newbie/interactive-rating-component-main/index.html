@@ -3,47 +3,112 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
-
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"></script>
+  <link href="styles/style.css" rel="stylesheet" type="text/css">	
+  <link href="styles/style.scss" rel="stylesheet" type="text/css">	
+  <!--Fonts-->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,700&family=Overpass:wght@400;700&display=swap" rel="stylesheet">
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
   
   <title>Frontend Mentor | Interactive rating component</title>
-
   <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
   <style>
     .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
+    .attribution a { color: hsl(0, 0%, 100%); }
   </style>
+
+  <script>
+      let reviewScore = 0;
+      let previousScore = 0;
+
+    function updateRating(rating){
+      //Changing Class name to be selected
+      if (reviewScore != 0){
+        previousScore = reviewScore;
+        document.getElementById(previousScore).classList.remove("selectedRating")
+      }
+      reviewScore = rating;
+      document.getElementById(rating).classList.add("selectedRating")   
+      
+      document.querySelector("#ratingHere").innerHTML = reviewScore
+    }
+
+    function submitRating(){
+      if(reviewScore != 0){
+        document.getElementById("body-rating").style.display = "none" ;
+        document.getElementById("body-response").style.display = "flex" ;
+      }
+    }
+  </script>
 </head>
 <body>
+    <!-- Rating state start -->
+<div class="container-fluid" id="challange-info">
+  <div class="container-fluid" id="body-rating">
+    <div class="container-fluid" id="body-rating_star">
+      <img src="images/icon-star.svg" alt="Star Icon">
+    </div>
+    <div class="container-fluid" id="body-rating_header">
+      <a>How did we do?</a>
+    </div>
+    <div class="container-fluid" id="body-rating_info">
+      <a>Please let us know how we did with your support request. All feedback is appreciated 
+        to help us improve our offering!</a>
+    </div>
+    <div class="container-fluid" id="body-rating_rate">
+      <form>
+        <ul>
+          <li onclick="updateRating(this.id)" id="1">1</li>
+          <li onclick="updateRating(this.id)" id="2">2</li>
+          <li onclick="updateRating(this.id)" id="3">3</li>
+          <li onclick="updateRating(this.id)" id="4">4</li>
+          <li onclick="updateRating(this.id)" id="5">5</li>
+        </ul>
+      </form>
+    </div>
+    <div class="container-fluid" id="body-rating_button">
+      <button type="button" class="btn btn-primary" onclick="submitRating()">
+        <a>Submit</a></button>
+    </div>
+  </div>
+    <!-- Rating state end -->
+  
+  
+  
+  
+  
+  
+    <!-- Thank you state start -->
+  <div class="container-fluid" id="body-response">
+    <div class="container-fluid" id="body-response_img">
+      <img src="images/illustration-thank-you.svg" alt="Thank you Image">
+    </div>
+    <div class="container-fluid" id="body-response_rating">
+      <p>You selected <span id="ratingHere"></span> out of 5</p>
+    </div>
+    <div class="container-fluid" id="body-response_header">
+      <p>Thank you!</p>
+    </div>
+    <div class="container-fluid" id="body-response_info">
+      <p>We appreciate you taking the time to give a rating. If you ever need more support, 
+        don’t hesitate to get in touch!</p>
+    </div>
 
-  <!-- Rating state start -->
-
-  How did we do?
-
-  Please let us know how we did with your support request. All feedback is appreciated 
-  to help us improve our offering!
-
-  1 2 3 4 5
-
-  Submit
-
-  <!-- Rating state end -->
-
-  <!-- Thank you state start -->
-
-  You selected <!-- Add rating here --> out of 5
-
-  Thank you!
-
-  We appreciate you taking the time to give a rating. If you ever need more support, 
-  don’t hesitate to get in touch!
-
-  <!-- Thank you state end -->
 
   
-  <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
+   
   </div>
+   
+    <!-- Thank you state end -->
+  
+    
+    <div class="attribution">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+      Coded by <a href="#">Your Name Here</a>.
+    </div>
+</div>
 </body>
 </html>

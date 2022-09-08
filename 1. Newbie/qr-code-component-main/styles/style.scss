@@ -1,0 +1,89 @@
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: hsl(212, 45%, 89%);
+   #challange-info{
+    padding: 0;
+    #body-qr{
+        width: 90vw;
+        margin: 0% 5%;
+        padding: 4% 4%;
+        background-color: hsl(0, 0%, 100%);
+        border-radius: 15px;
+        #qr-img{
+            padding: 0;
+            img{
+                width: 100%;
+                border-radius: 15px;
+            }
+        }
+        #qr-content{
+            font-family: "Outfit";
+            text-align: center;
+            #qr-content_header{
+                margin: 7% 0;
+                p{
+                    font-size: 25px;
+                    font-weight: 700;
+                    line-height: normal;
+                    color:  hsl(218, 44%, 22%);
+                }
+               
+            }
+            #qr-content_subtext{
+                p{
+                    font-weight: 400;
+                    line-height: normal;
+                    color: hsl(220, 15%, 55%);
+                    
+                }
+                
+            }
+        }
+    }
+   }
+}
+
+
+@media screen and (min-width:450px) {
+    body{
+        justify-content: center;
+        background-color: hsl(212, 45%, 89%);
+        #challange-info{
+            width: auto;
+            #body-qr{
+                width: 350px;
+                margin: 0%;
+                padding: 5% 5%;
+                background-color: hsl(0, 0%, 100%);
+                border-radius: 15px;
+                #qr-img{
+                    padding: 0;
+                    img{
+                        width: 100%;
+                        border-radius: 15px;
+                    }
+                }
+                #qr-content{
+                    font-family: "Outfit";
+                    text-align: center;
+                    #qr-content_header{
+                     
+                        margin: 7% 0;
+                        p{
+                            font-size: 23px;
+                        }
+                        
+                    }
+                    #qr-content_subtext{
+                        p{
+                            font-size: 16px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

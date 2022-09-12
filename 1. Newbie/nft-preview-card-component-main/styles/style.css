@@ -1,0 +1,220 @@
+body {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: hsl(217deg, 54%, 11%);
+}
+body #challange-info #NFT-card {
+  width: 90vw;
+  padding: 0;
+  background-color: hsl(216deg, 50%, 16%);
+  border-radius: 15px;
+}
+body #challange-info #NFT-card #NFT-card_img {
+  padding: 1.25rem;
+}
+body #challange-info #NFT-card #NFT-card_img #NFT-card_img_NFT img {
+  width: 100%;
+  border-radius: 15px;
+}
+body #challange-info #NFT-card #NFT-card_img #NFT-card_img_view {
+  display: none;
+  position: absolute;
+  background-color: rgba(37, 196, 202, 0.5);
+  padding: 130px;
+  border-radius: 15px;
+}
+body #challange-info #NFT-card #NFT-card_img:hover #NFT-card_img_view {
+  display: block;
+}
+body #challange-info #NFT-card_text {
+  padding: 0% 1.25rem;
+}
+body #challange-info #NFT-card_text #NFT-card_title {
+  padding: 0%;
+}
+body #challange-info #NFT-card_text #NFT-card_title h1 {
+  font-family: "Outfit";
+  font-size: 24px;
+  font-weight: 600;
+  color: hsl(0deg, 0%, 100%);
+}
+body #challange-info #NFT-card_text #NFT-card_title h1:hover {
+  cursor: pointer;
+  color: hsl(178deg, 100%, 50%);
+}
+body #challange-info #NFT-card_text #NFT-card_body {
+  padding: 0%;
+}
+body #challange-info #NFT-card_text #NFT-card_body p {
+  font-family: "Outfit";
+  font-weight: 300;
+  font-size: 18px;
+  color: hsl(215deg, 51%, 70%);
+}
+body #challange-info #NFT-card_text #NFT-card_info {
+  display: flex;
+  padding: 0%;
+  justify-content: space-between;
+  vertical-align: baseline;
+}
+body #challange-info #NFT-card_text #NFT-card_info p {
+  font-family: "Outfit";
+  font-size: 16px;
+}
+body #challange-info #NFT-card_text #NFT-card_info #NFT-card_info_eth {
+  display: flex;
+  padding: 0%;
+  flex-direction: row;
+}
+body #challange-info #NFT-card_text #NFT-card_info #NFT-card_info_eth picture img {
+  padding-bottom: 0.3rem;
+}
+body #challange-info #NFT-card_text #NFT-card_info #NFT-card_info_eth p {
+  margin: 0%;
+  padding-left: 0.4rem;
+  font-weight: 400;
+  color: hsl(178deg, 100%, 50%);
+}
+body #challange-info #NFT-card_text #NFT-card_info #NFT-card_info_time {
+  display: flex;
+  padding: 0%;
+  flex-direction: row;
+  justify-content: flex-end;
+  vertical-align: baseline;
+}
+body #challange-info #NFT-card_text #NFT-card_info #NFT-card_info_time picture img {
+  padding-bottom: 0.1rem;
+}
+body #challange-info #NFT-card_text #NFT-card_info #NFT-card_info_time p {
+  margin: 0%;
+  padding-left: 0.4rem;
+  font-weight: 300;
+  color: hsl(215deg, 51%, 70%);
+}
+body #challange-info #NFT-card_text hr {
+  margin: 3% 0;
+  border-top: 2px solid hsl(215deg, 32%, 27%);
+}
+body #challange-info #NFT-card_text #NFT-card_author {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 4% 0 7% 0;
+}
+body #challange-info #NFT-card_text #NFT-card_author picture img {
+  width: 35px;
+  border: 1px solid hsl(0deg, 0%, 100%);
+  border-radius: 25px;
+}
+body #challange-info #NFT-card_text #NFT-card_author p {
+  margin: 0%;
+  padding-left: 1em;
+  font-family: "Outfit";
+  font-weight: 300;
+  font-size: 18px;
+  color: hsl(215deg, 51%, 70%);
+}
+body #challange-info #NFT-card_text #NFT-card_author #NFT-card_author_name {
+  color: hsl(0deg, 0%, 100%);
+}
+body #challange-info #NFT-card_text #NFT-card_author #NFT-card_author_name:hover {
+  cursor: pointer;
+  color: hsl(178deg, 100%, 50%);
+}
+
+@media screen and (min-width: 450px) {
+  body #challange-info #NFT-card {
+    width: 350px;
+  }
+  body #challange-info #NFT-card #NFT-card_text {
+    padding: 0% 1.25rem;
+  }
+  body #challange-info #NFT-card #NFT-card_text #NFT-card_title {
+    padding: 2% 0%;
+  }
+  body #challange-info #NFT-card #NFT-card_text #NFT-card_title h1:hover {
+    cursor: pointer;
+    color: hsl(178deg, 100%, 50%);
+  }
+  body #challange-info #NFT-card #NFT-card_text #NFT-card_body {
+    padding: 0%;
+  }
+  body #challange-info #NFT-card #NFT-card_text #NFT-card_body p {
+    font-family: "Outfit";
+    font-weight: 300;
+    font-size: 18px;
+    color: hsl(215deg, 51%, 70%);
+  }
+  body #challange-info #NFT-card #NFT-card_text #NFT-card_info {
+    display: flex;
+    padding: 0%;
+    justify-content: space-between;
+    vertical-align: baseline;
+  }
+  body #challange-info #NFT-card #NFT-card_text #NFT-card_info p {
+    font-family: "Outfit";
+    font-size: 16px;
+  }
+  body #challange-info #NFT-card #NFT-card_text #NFT-card_info #NFT-card_info_eth {
+    display: flex;
+    padding: 0%;
+    flex-direction: row;
+  }
+  body #challange-info #NFT-card #NFT-card_text #NFT-card_info #NFT-card_info_eth picture img {
+    padding-bottom: 0.3rem;
+  }
+  body #challange-info #NFT-card #NFT-card_text #NFT-card_info #NFT-card_info_eth p {
+    margin: 0%;
+    padding-left: 0.4rem;
+    font-weight: 400;
+    color: hsl(178deg, 100%, 50%);
+  }
+  body #challange-info #NFT-card #NFT-card_text #NFT-card_info #NFT-card_info_time {
+    display: flex;
+    padding: 0%;
+    flex-direction: row;
+    justify-content: flex-end;
+    vertical-align: baseline;
+  }
+  body #challange-info #NFT-card #NFT-card_text #NFT-card_info #NFT-card_info_time picture img {
+    padding-bottom: 0.1rem;
+  }
+  body #challange-info #NFT-card #NFT-card_text #NFT-card_info #NFT-card_info_time p {
+    margin: 0%;
+    padding-left: 0.4rem;
+    font-weight: 300;
+    color: hsl(215deg, 51%, 70%);
+  }
+  body #challange-info #NFT-card #NFT-card_text hr {
+    margin: 3% 0;
+    border-top: 2px solid hsl(215deg, 32%, 27%);
+  }
+  body #challange-info #NFT-card #NFT-card_text #NFT-card_author {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 4% 0 8% 0;
+  }
+  body #challange-info #NFT-card #NFT-card_text #NFT-card_author picture img {
+    width: 35px;
+    border: 1px solid hsl(0deg, 0%, 100%);
+    border-radius: 25px;
+  }
+  body #challange-info #NFT-card #NFT-card_text #NFT-card_author p {
+    margin: 0%;
+    padding-left: 1em;
+    font-family: "Outfit";
+    font-weight: 300;
+    font-size: 18px;
+    color: hsl(215deg, 51%, 70%);
+  }
+  body #challange-info #NFT-card #NFT-card_text #NFT-card_author #NFT-card_author_name {
+    color: hsl(0deg, 0%, 100%);
+  }
+  body #challange-info #NFT-card #NFT-card_text #NFT-card_author #NFT-card_author_name:hover {
+    cursor: pointer;
+    color: hsl(178deg, 100%, 50%);
+  }
+}/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,260 @@
+//Color Primary
+$Etherium: hsl(178, 100%, 50%);
+$Text: hsl(215, 51%, 70%);
+//Color Neutral
+$MainBG: hsl(217, 54%, 11%);
+$CardBG: hsl(216, 50%, 16%);
+$Line:hsl(215, 32%, 27%);
+$White: hsl(0, 0%, 100%);
+
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: hsl(217, 54%, 11%);
+    #challange-info{
+        #NFT-card{
+            width: 90vw;
+
+            padding: 0;
+            background-color: $CardBG;
+            border-radius: 15px;
+            
+            #NFT-card_img{
+                padding: 1.25rem;
+                #NFT-card_img_NFT{
+                    img{
+                        width: 100%;
+                        border-radius: 15px;
+                    }
+                }
+                #NFT-card_img_view{
+                display: none;
+                position: absolute;
+                background-color: rgb(37,196,202,.5);
+                padding: 130px;
+                border-radius: 15px;
+                }
+            }
+            #NFT-card_img:hover{
+                #NFT-card_img_view{
+                    display: block;
+                }
+            }
+                
+        }
+        #NFT-card_text{
+            padding: 0% 1.25rem;
+            #NFT-card_title{
+                padding: 0%;
+                h1{
+                    font-family: 'Outfit';
+                    font-size: 24px;
+                    font-weight: 600;
+                    color: $White;
+                }
+                h1:hover{
+                    cursor: pointer;
+                    color: $Etherium;
+                }
+            }
+            #NFT-card_body{
+                padding: 0%;
+                p{
+                    font-family: 'Outfit';
+                    font-weight: 300;
+                    font-size: 18px;
+                    color: $Text;
+                }
+            }
+            #NFT-card_info{
+                display: flex;
+                padding: 0%;
+                justify-content: space-between;
+                vertical-align: baseline;
+                p{
+                    font-family: 'Outfit';
+                    font-size: 16px;
+                }
+                
+                #NFT-card_info_eth{
+                    display: flex;
+                    padding: 0%;
+                    flex-direction: row;
+                    picture{
+                        img{
+                            padding-bottom: .3rem;
+                        }
+                    }
+                    p{
+                    margin: 0%;
+                    padding-left: .4rem;
+                    font-weight: 400;
+                    color: $Etherium;
+                    } 
+                }
+                #NFT-card_info_time{
+                    display: flex;
+                    padding: 0%;
+                    flex-direction: row;
+                    justify-content: flex-end;
+                    vertical-align: baseline;
+                    picture{
+                        img{
+                            padding-bottom: .1rem;
+                        }
+                    }
+                    p{
+                    margin: 0%;
+                    padding-left: .4rem;
+                    font-weight: 300;
+                    color: $Text;
+                    } 
+                }
+            }
+            hr{
+                margin: 3% 0;
+                border-top: 2px solid $Line;
+            }
+            #NFT-card_author{
+                display: flex;
+                flex-direction: row;
+                align-items: center;
+                padding: 4% 0 7% 0;
+                picture{
+                    img{
+                        width: 35px;
+                        border: 1px solid $White;
+                        border-radius: 25px;
+                    }
+                }
+                p{
+                    margin: 0%;
+                    padding-left: 1em;
+                    font-family: 'Outfit';
+                    font-weight: 300;
+                    font-size: 18px;
+                    color: $Text;
+                }
+                #NFT-card_author_name{
+                    color: $White;
+                }
+                #NFT-card_author_name:hover{
+                    cursor: pointer;
+                    color: $Etherium;
+                }
+            }
+        }
+        
+    }
+}
+
+//Desktop
+@media screen and (min-width:450px) {
+    body{
+
+        #challange-info{
+            #NFT-card{
+                width: 350px;
+                #NFT-card_text{
+                    padding: 0% 1.25rem;
+                    #NFT-card_title{
+                        padding: 2% 0%;
+                        h1:hover{
+                            cursor: pointer;
+                            color: $Etherium;
+                        }
+                    }
+                    #NFT-card_body{
+                        padding: 0%;
+                        p{
+                            font-family: 'Outfit';
+                            font-weight: 300;
+                            font-size: 18px;
+                            color: $Text;
+                        }
+                    }
+                    #NFT-card_info{
+                        display: flex;
+                        padding: 0%;
+                        justify-content: space-between;
+                        vertical-align: baseline;
+                        p{
+                            font-family: 'Outfit';
+                            font-size: 16px;
+                        }
+                        
+                        #NFT-card_info_eth{
+                            display: flex;
+                            padding: 0%;
+                            flex-direction: row;
+                            picture{
+                                img{
+                                    padding-bottom: .3rem;
+                                }
+                            }
+                           p{
+                            margin: 0%;
+                            padding-left: .4rem;
+                            font-weight: 400;
+                            color: $Etherium;
+                           } 
+                        }
+                        #NFT-card_info_time{
+                            display: flex;
+                            padding: 0%;
+                            flex-direction: row;
+                            justify-content: flex-end;
+                            vertical-align: baseline;
+                            picture{
+                                img{
+                                    padding-bottom: .1rem;
+                                }
+                            }
+                           p{
+                            margin: 0%;
+                            padding-left: .4rem;
+                            font-weight: 300;
+                            color: $Text;
+                           } 
+                        }
+                    }
+                    hr{
+                        margin: 3% 0;
+                        border-top: 2px solid $Line;
+                    }
+                    #NFT-card_author{
+                        display: flex;
+                        flex-direction: row;
+                        align-items: center;
+                        padding: 4% 0 8% 0;
+                        picture{
+                            img{
+                                width: 35px;
+                                border: 1px solid $White;
+                                border-radius: 25px;
+                            }
+                        }
+                        p{
+                            margin: 0%;
+                            padding-left: 1em;
+                            font-family: 'Outfit';
+                            font-weight: 300;
+                            font-size: 18px;
+                            color: $Text;
+                        }
+                        #NFT-card_author_name{
+                            color: $White;
+                        }
+                        #NFT-card_author_name:hover{
+                            cursor: pointer;
+                            color: $Etherium;
+                        }
+                    }
+                }
+                
+            }
+        }
+    }
+}

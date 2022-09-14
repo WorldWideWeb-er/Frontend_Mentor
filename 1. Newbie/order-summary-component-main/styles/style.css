@@ -1,0 +1,219 @@
+body {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url(../images/pattern-background-mobile.svg);
+  background-repeat: no-repeat;
+  background-color: hsl(225deg, 100%, 94%);
+}
+body #challange_content {
+  padding: 0;
+}
+body #challange_content #order-container {
+  width: 90%;
+  padding: 0;
+  background-color: white;
+  border-radius: 15px;
+}
+body #challange_content #order-container #order-image {
+  padding: 0;
+}
+body #challange_content #order-container #order-image picture img {
+  width: 100%;
+  border-radius: 15px 15px 0 0;
+}
+body #challange_content #order-container #order-text #order-text_header {
+  padding: 10% 0 4% 0;
+}
+body #challange_content #order-container #order-text #order-text_header h1 {
+  font-family: "Red Hat Display";
+  font-weight: 900;
+  text-align: center;
+  font-size: 23px;
+}
+body #challange_content #order-container #order-text #order-text_desc {
+  padding: 0 7%;
+}
+body #challange_content #order-container #order-text #order-text_desc p {
+  margin: 0;
+  font-family: "Red Hat Display";
+  font-weight: 500;
+  text-align: center;
+  font-size: 16px;
+  line-height: 165%;
+  color: hsl(224deg, 23%, 55%);
+}
+body #challange_content #order-container #order-text #order-text_plan {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  font-family: "Red Hat Display";
+  padding: 6%;
+  margin: 7% 0;
+  background-color: hsl(225deg, 100%, 98%);
+  border-radius: 10px;
+}
+body #challange_content #order-container #order-text #order-text_plan #order-text_plan_info {
+  padding-left: 1.25em;
+}
+body #challange_content #order-container #order-text #order-text_plan #order-text_plan_info p {
+  font-size: 14px;
+  margin: 0%;
+}
+body #challange_content #order-container #order-text #order-text_plan #order-text_plan_info p:first-child {
+  font-weight: 700;
+}
+body #challange_content #order-container #order-text #order-text_plan #order-text_plan_info p:last-child {
+  color: hsl(224deg, 23%, 55%);
+}
+body #challange_content #order-container #order-text #order-text_plan a {
+  margin: 0%;
+  font-weight: 700;
+  font-size: 14px;
+  color: hsl(245deg, 75%, 52%);
+}
+body #challange_content #order-container #order-buttons #order-buttons_pay button {
+  width: 100%;
+  background-color: hsl(245deg, 75%, 52%);
+}
+body #challange_content #order-container #order-buttons #order-buttons_pay button p {
+  margin: 0%;
+  padding: 3% 0;
+  font-family: "Red Hat Display";
+  font-weight: 900;
+  font-size: 14px;
+  color: white;
+}
+body #challange_content #order-container #order-buttons #order-buttons_cancel {
+  padding-bottom: 5%;
+}
+body #challange_content #order-container #order-buttons #order-buttons_cancel button {
+  width: 100%;
+  background-color: white;
+}
+body #challange_content #order-container #order-buttons #order-buttons_cancel button p {
+  margin: 0%;
+  padding: 5% 0;
+  font-family: "Red Hat Display";
+  font-weight: 900;
+  font-size: 14px;
+  color: hsl(224deg, 23%, 55%);
+}
+
+@media screen and (min-width: 450px) {
+  body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(../images/pattern-background-desktop.svg);
+    background-repeat: repeat-x;
+  }
+  body #challange_content {
+    padding: 0;
+  }
+  body #challange_content #order-container {
+    width: 400px;
+    padding: 0;
+    background-color: white;
+    border-radius: 15px;
+  }
+  body #challange_content #order-container #order-image {
+    padding: 0;
+  }
+  body #challange_content #order-container #order-image picture img {
+    width: 100%;
+    border-radius: 15px 15px 0 0;
+  }
+  body #challange_content #order-container #order-text #order-text_header {
+    padding: 10% 0 4% 0;
+  }
+  body #challange_content #order-container #order-text #order-text_header h1 {
+    font-family: "Red Hat Display";
+    font-weight: 900;
+    text-align: center;
+    font-size: 23px;
+  }
+  body #challange_content #order-container #order-text #order-text_desc {
+    padding: 0 7%;
+  }
+  body #challange_content #order-container #order-text #order-text_desc p {
+    margin: 0;
+    font-family: "Red Hat Display";
+    font-weight: 500;
+    text-align: center;
+    font-size: 16px;
+    line-height: 165%;
+    color: hsl(224deg, 23%, 55%);
+  }
+  body #challange_content #order-container #order-text #order-text_plan {
+    width: auto;
+    flex-direction: row;
+    align-items: center;
+    font-family: "Red Hat Display";
+    padding: 6%;
+    margin: 9% 3%;
+    background-color: hsl(225deg, 100%, 98%);
+    border-radius: 10px;
+  }
+  body #challange_content #order-container #order-text #order-text_plan #order-text_plan_info {
+    padding-left: 1.25em;
+  }
+  body #challange_content #order-container #order-text #order-text_plan #order-text_plan_info p {
+    font-size: 14px;
+    margin: 0%;
+  }
+  body #challange_content #order-container #order-text #order-text_plan #order-text_plan_info p:first-child {
+    font-weight: 700;
+  }
+  body #challange_content #order-container #order-text #order-text_plan #order-text_plan_info p:last-child {
+    color: hsl(224deg, 23%, 55%);
+  }
+  body #challange_content #order-container #order-text #order-text_plan a {
+    margin: 0%;
+    font-weight: 700;
+    font-size: 14px;
+    color: hsl(245deg, 75%, 52%);
+  }
+  body #challange_content #order-container #order-text #order-text_plan a:hover {
+    color: rgb(118, 108, 241);
+    cursor: pointer;
+  }
+  body #challange_content #order-container #order-buttons #order-buttons_pay button {
+    width: 100%;
+    background-color: hsl(245deg, 75%, 52%);
+  }
+  body #challange_content #order-container #order-buttons #order-buttons_pay button p {
+    margin: 0%;
+    padding: 3% 0;
+    font-family: "Red Hat Display";
+    font-weight: 900;
+    font-size: 14px;
+    color: white;
+  }
+  body #challange_content #order-container #order-buttons #order-buttons_pay button:hover {
+    background-color: rgb(118, 108, 241);
+    cursor: pointer;
+    border: none;
+  }
+  body #challange_content #order-container #order-buttons #order-buttons_cancel {
+    padding-bottom: 5%;
+  }
+  body #challange_content #order-container #order-buttons #order-buttons_cancel button {
+    width: 100%;
+    background-color: white;
+  }
+  body #challange_content #order-container #order-buttons #order-buttons_cancel button p {
+    margin: 0%;
+    padding: 5% 0;
+    font-family: "Red Hat Display";
+    font-weight: 900;
+    font-size: 14px;
+    color: hsl(224deg, 23%, 55%);
+  }
+  body #challange_content #order-container #order-buttons #order-buttons_cancel button:hover {
+    cursor: pointer;
+    border: none;
+  }
+}/*# sourceMappingURL=style.css.map */

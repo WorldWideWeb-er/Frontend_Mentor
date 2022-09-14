@@ -21,8 +21,8 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 
 ### Links
 
-- Solution URL: [GitHub](https://github.com/WorldWideWeb-er/Frontend_Mentor/tree/main/1.%20Newbie/nft-preview-card-component-main)
-- Live Site URL: [Live Site](https://wwweber-nft.netlify.app/)
+- Solution URL: [Live Site](https://github.com/WorldWideWeb-er/Frontend_Mentor/tree/main/1.%20Newbie/qr-code-component-main)
+- Live Site URL: [Live Site](https://wwweber-qrcode.netlify.app/)
 
 ## My process
 
@@ -37,8 +37,7 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 
 ### What I learned
 
-I learned (more like attempted to) more about how to overlap objects.
-Attempted to have the 'hover' image and color be on top of the NFT image became an issue and stumped me for awhile.
+I learned that building mobile first formats into desktop and tablet formats is a much easier job than the opposite
 
 ### Continued development
 

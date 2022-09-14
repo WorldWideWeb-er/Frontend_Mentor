@@ -37,11 +37,12 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 
 ### What I learned
 
-I learned that building mobile first formats into desktop and tablet formats is a much easier job than the opposite
+I learned that building mobile first formats into desktop and tablet formats is a much easier job than the opposite.
 
 ### Continued development
 
 Continued use of Flexbox and Bootstrap will be used in every project due to my familiarity with these concepts.
+Padding and Margin have become more of a focus to change layouts.
 
 ## Author
 

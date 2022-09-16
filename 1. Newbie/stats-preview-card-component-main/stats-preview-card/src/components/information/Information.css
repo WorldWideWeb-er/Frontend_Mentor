@@ -1,0 +1,61 @@
+#stats-info {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  padding: 0% 6%;
+}
+#stats-info #stats-info_header {
+  text-align: center;
+  margin: 11% 0 5% 0;
+}
+#stats-info #stats-info_header h1 {
+  margin: 0;
+  font-family: "Inter";
+  font-weight: 700;
+  color: hsl(0deg, 0%, 100%);
+}
+#stats-info #stats-info_header span {
+  color: hsl(277deg, 64%, 61%);
+}
+#stats-info #stats-info_subtext {
+  text-align: center;
+  margin-bottom: 6%;
+}
+#stats-info #stats-info_subtext P {
+  margin: 0;
+  font-family: "Lexend Deca";
+  font-weight: 400;
+  font-size: 15px;
+  color: hsla(0deg, 0%, 100%, 0.75);
+}
+
+@media screen and (min-width: 450px) {
+  #stats-info {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 0%;
+  }
+  #stats-info #stats-info_header {
+    text-align: left;
+    margin: 18% 0 5% 0%;
+  }
+  #stats-info #stats-info_header h1 {
+    font-size: 35px;
+  }
+  #stats-info #stats-info_header span {
+    color: hsl(277deg, 64%, 61%);
+  }
+  #stats-info #stats-info_subtext {
+    text-align: left;
+    padding-right: 8%;
+    margin-bottom: 16%;
+  }
+  #stats-info #stats-info_subtext P {
+    margin: 0;
+    font-family: "Lexend Deca";
+    font-weight: 400;
+    font-size: 16px;
+    color: hsla(0deg, 0%, 100%, 0.75);
+  }
+}/*# sourceMappingURL=Information.css.map */

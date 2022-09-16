@@ -1,0 +1,51 @@
+//Color-Primary
+$MainBG: hsl(233, 47%, 7%);
+$CardBG: hsl(244, 38%, 16%);
+$Accent: hsl(277, 64%, 61%);
+//Color-Neutrals
+$White: hsl(0, 0%, 100%);
+$MainP: hsla(0, 0%, 100%, 0.75);
+$StatH: hsla(0, 0%, 100%, 0.6);
+#stats-stats_cont{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding-bottom: 8%;
+    #stat-stats_info{
+        text-align: center;
+        p{
+            margin: 0;
+            font-family: "Inter";
+            font-weight: 700;
+            font-size: 25px;
+            color: $White;
+        }
+       
+    }
+    #stat-stats_desc{
+        text-align: center;
+        P{
+            margin: 0;
+            font-family: "Lexend Deca";
+            font-weight: 400;
+            font-size: 13px;
+            color: $StatH;
+            text-transform: uppercase;
+            letter-spacing: .05em;
+        }
+    }
+}
+
+@media screen and (min-width:450px) {
+    #stats-stats_cont{
+        flex-direction: column;
+        margin-bottom: 2%;
+        padding:  0% ;
+        #stat-stats_info{
+            text-align: left;           
+        }
+        #stat-stats_desc{
+            text-align: left;
+        }
+    }
+  }

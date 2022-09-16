@@ -1,14 +1,70 @@
+//Color-Primary
+$MainBG: hsl(233, 47%, 7%);
+$CardBG: hsl(244, 38%, 16%);
+$Accent: hsl(277, 64%, 61%);
+//Color-Neutrals
+$White: hsl(0, 0%, 100%);
+$MainP: hsl(244, 38%, 16%);
+$StatH: hsl(277, 64%, 61%);
 body{
   height: 100vh;
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: hsl(212, 45%, 89%);
+  background-color: $MainBG;
+  #root{
+    .App{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background-color: $MainBG;
+      #challange-info{
+        padding: 0;
+        #stats-card{
+          margin: 0%;
+          width: 90vw;
+          background-color: $CardBG;
+          border-radius: 5px;
+        }
+      }
+    }
+  }
 }
-
 
 @media screen and (min-width:450px) {
   body{
-      
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: $MainBG;
+    #root{
+      .App{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: $MainBG;
+        #challange-info{
+          padding: 0;
+          #stats-card{
+            margin: 0%;
+            width: 58vw;
+            background-color: $CardBG;
+            border-radius: 5px;
+            display: flex;
+            flex-direction: row;
+            #stats-card_img{
+              width: 48%;
+              order: 2;
+            }
+            #stats-card_text{
+              width: 52%;
+              order: 1;
+              padding: 0 5.5%;
+            }
+          }
+        }
+      }
+    }
   }
 }

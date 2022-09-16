@@ -1,0 +1,42 @@
+#stats-stats_cont {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  padding-bottom: 8%;
+}
+#stats-stats_cont #stat-stats_info {
+  text-align: center;
+}
+#stats-stats_cont #stat-stats_info p {
+  margin: 0;
+  font-family: "Inter";
+  font-weight: 700;
+  font-size: 25px;
+  color: hsl(0deg, 0%, 100%);
+}
+#stats-stats_cont #stat-stats_desc {
+  text-align: center;
+}
+#stats-stats_cont #stat-stats_desc P {
+  margin: 0;
+  font-family: "Lexend Deca";
+  font-weight: 400;
+  font-size: 13px;
+  color: hsla(0deg, 0%, 100%, 0.6);
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+
+@media screen and (min-width: 450px) {
+  #stats-stats_cont {
+    flex-direction: column;
+    margin-bottom: 2%;
+    padding: 0%;
+  }
+  #stats-stats_cont #stat-stats_info {
+    text-align: left;
+  }
+  #stats-stats_cont #stat-stats_desc {
+    text-align: left;
+  }
+}/*# sourceMappingURL=Stat-layout.css.map */

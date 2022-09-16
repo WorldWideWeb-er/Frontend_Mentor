@@ -12,4 +12,4 @@ const StatLayout =({ stat, title }) => (
     </div>
 );
 
-export default StatLayout
+export default StatLayout;

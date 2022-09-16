@@ -1,7 +1,7 @@
-import React, { Component } from 'react';
+import React from 'react';
 import "./Stats.css";
 
-import StatLayout from '../../containers/stats/Stat-layout';
+import StatLayout from '../../containers/stats-layout/Stat-layout';
 const statsData =[
     {
         stat:"10k+",

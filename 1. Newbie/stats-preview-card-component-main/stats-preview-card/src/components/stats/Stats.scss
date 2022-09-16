@@ -1,0 +1,13 @@
+#stat-stats{
+    display: block;
+}
+@media screen and (min-width:450px) {
+    #stat-stats{
+        display: flex;
+        flex-direction: row;
+        align-items: flex-start;
+        padding: 0%;
+    }
+}
+
+

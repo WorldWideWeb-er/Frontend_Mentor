@@ -3,5 +3,56 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: hsl(212deg, 45%, 89%);
+  background-color: hsl(233deg, 47%, 7%);
+}
+body #root .App {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: hsl(233deg, 47%, 7%);
+}
+body #root .App #challange-info {
+  padding: 0;
+}
+body #root .App #challange-info #stats-card {
+  margin: 0%;
+  width: 90vw;
+  background-color: hsl(244deg, 38%, 16%);
+  border-radius: 5px;
+}
+
+@media screen and (min-width: 450px) {
+  body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: hsl(233deg, 47%, 7%);
+  }
+  body #root .App {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: hsl(233deg, 47%, 7%);
+  }
+  body #root .App #challange-info {
+    padding: 0;
+  }
+  body #root .App #challange-info #stats-card {
+    margin: 0%;
+    width: 58vw;
+    background-color: hsl(244deg, 38%, 16%);
+    border-radius: 5px;
+    display: flex;
+    flex-direction: row;
+  }
+  body #root .App #challange-info #stats-card #stats-card_img {
+    width: 48%;
+    order: 2;
+  }
+  body #root .App #challange-info #stats-card #stats-card_text {
+    width: 52%;
+    order: 1;
+    padding: 0 5.5%;
+  }
 }/*# sourceMappingURL=App.css.map */

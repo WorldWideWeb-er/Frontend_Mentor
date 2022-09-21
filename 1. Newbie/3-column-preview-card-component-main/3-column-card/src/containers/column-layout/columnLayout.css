@@ -1,0 +1,93 @@
+#card-column-Luxury,
+#card-column-Sedans,
+#card-column-SUVs {
+  padding: 50px 50px;
+}
+#card-column-Luxury #card-column-img,
+#card-column-Sedans #card-column-img,
+#card-column-SUVs #card-column-img {
+  padding: 0;
+}
+#card-column-Luxury h1,
+#card-column-Sedans h1,
+#card-column-SUVs h1 {
+  padding: 20px 0;
+  font-family: "Big Shoulders Display";
+  font-weight: 700;
+  font-size: 40px;
+  color: hsl(0deg, 0%, 95%);
+  text-transform: uppercase;
+}
+#card-column-Luxury p,
+#card-column-Sedans p,
+#card-column-SUVs p {
+  padding-right: 25px;
+  margin-bottom: 35px;
+  font-family: "Lexend Deca";
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 200%;
+  color: hsla(0deg, 0%, 100%, 0.75);
+}
+#card-column-Luxury button,
+#card-column-Sedans button,
+#card-column-SUVs button {
+  border-radius: 30px;
+}
+#card-column-Luxury button P,
+#card-column-Sedans button P,
+#card-column-SUVs button P {
+  padding: 0.3em 2em;
+  font-family: "Lexend Deca";
+  font-weight: 400;
+  font-size: 15px;
+  margin: 0%;
+}
+
+@media screen and (min-width: 450px) {
+  #card-column-Luxury,
+#card-column-Sedans,
+#card-column-SUVs {
+    padding: 50px 50px;
+  }
+  #card-column-Luxury #card-column-img,
+#card-column-Sedans #card-column-img,
+#card-column-SUVs #card-column-img {
+    padding: 0;
+  }
+  #card-column-Luxury h1,
+#card-column-Sedans h1,
+#card-column-SUVs h1 {
+    padding: 20px 0;
+    font-family: "Big Shoulders Display";
+    font-weight: 700;
+    font-size: 40px;
+    color: hsl(0deg, 0%, 95%);
+    text-transform: uppercase;
+  }
+  #card-column-Luxury p,
+#card-column-Sedans p,
+#card-column-SUVs p {
+    padding-right: 0px;
+    margin-bottom: 75px;
+    font-family: "Lexend Deca";
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 170%;
+    color: hsla(0deg, 0%, 100%, 0.75);
+  }
+  #card-column-Luxury button,
+#card-column-Sedans button,
+#card-column-SUVs button {
+    border-radius: 30px;
+  }
+  #card-column-Luxury button P,
+#card-column-Sedans button P,
+#card-column-SUVs button P {
+    padding: 0.3em 1em;
+    font-family: "Lexend Deca";
+    font-weight: 400;
+    font-size: 15px;
+    margin: 0%;
+  }
+}/*# sourceMappingURL=columnLayout.css.map */

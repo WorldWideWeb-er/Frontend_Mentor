@@ -1,0 +1,75 @@
+#card {
+  display: flex;
+  flex-direction: column;
+  padding: 0;
+}
+#card #card-column-Sedans {
+  border-radius: 10px 10px 0 0;
+  background-color: hsl(31deg, 77%, 52%);
+}
+#card #card-column-Sedans button P {
+  color: hsl(31deg, 77%, 52%);
+}
+#card #card-column-SUVs {
+  background-color: hsl(184deg, 100%, 22%);
+}
+#card #card-column-SUVs button P {
+  color: hsl(184deg, 100%, 22%);
+}
+#card #card-column-Luxury {
+  border-radius: 0 0 10px 10px;
+  background-color: hsl(179deg, 100%, 13%);
+}
+#card #card-column-Luxury button P {
+  color: hsl(179deg, 100%, 13%);
+}
+
+@media screen and (min-width: 450px) {
+  #card {
+    display: flex;
+    flex-direction: row;
+    padding: 0;
+    max-width: 60%;
+  }
+  #card #card-column-Sedans {
+    border-radius: 10px 0 0 10px;
+    background-color: hsl(31deg, 77%, 52%);
+  }
+  #card #card-column-Sedans button P {
+    color: hsl(31deg, 77%, 52%);
+  }
+  #card #card-column-Sedans button:hover {
+    background-color: hsl(31deg, 77%, 52%);
+    border: 2px solid hsla(0deg, 0%, 100%, 0.75);
+  }
+  #card #card-column-Sedans button:hover P {
+    color: hsla(0deg, 0%, 100%, 0.75);
+  }
+  #card #card-column-SUVs {
+    background-color: hsl(184deg, 100%, 22%);
+  }
+  #card #card-column-SUVs button P {
+    color: hsl(184deg, 100%, 22%);
+  }
+  #card #card-column-SUVs button:hover {
+    background-color: hsl(184deg, 100%, 22%);
+    border: 2px solid hsla(0deg, 0%, 100%, 0.75);
+  }
+  #card #card-column-SUVs button:hover P {
+    color: hsla(0deg, 0%, 100%, 0.75);
+  }
+  #card #card-column-Luxury {
+    border-radius: 0 10px 10px 0;
+    background-color: hsl(179deg, 100%, 13%);
+  }
+  #card #card-column-Luxury button P {
+    color: hsl(179deg, 100%, 13%);
+  }
+  #card #card-column-Luxury button:hover {
+    background-color: hsl(179deg, 100%, 13%);
+    border: 2px solid hsla(0deg, 0%, 100%, 0.75);
+  }
+  #card #card-column-Luxury button:hover P {
+    color: hsla(0deg, 0%, 100%, 0.75);
+  }
+}/*# sourceMappingURL=Card.css.map */

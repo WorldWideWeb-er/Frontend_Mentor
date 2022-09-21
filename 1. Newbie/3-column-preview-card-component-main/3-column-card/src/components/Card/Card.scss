@@ -1,0 +1,99 @@
+//Color-Primary
+$Orange: hsl(31, 77%, 52%);
+$dCyan: hsl(184, 100%, 22%);
+$vdCyan:hsl(179, 100%, 13%);
+//Color-Neutrals
+$whiteP: hsla(0, 0%, 100%, 0.75);
+$grayBG: hsl(0, 0%, 95%);
+
+#card{
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+    #card-column-Sedans{
+        border-radius: 10px 10px 0 0;
+        background-color: $Orange;
+        button{
+            P{
+                color: $Orange;
+            }
+
+        }
+    }
+    #card-column-SUVs{
+        background-color: $dCyan;
+        button{
+            P{
+                color: $dCyan;
+            }
+        }
+    }
+    #card-column-Luxury{
+        border-radius: 0 0 10px 10px;
+        background-color: $vdCyan;
+        button{
+            P{
+                color: $vdCyan;
+            }
+
+        }
+    }
+}
+
+@media screen and (min-width:450px) {
+    #card{
+        display: flex;
+        flex-direction: row;
+        padding: 0;
+        max-width: 60%;
+        #card-column-Sedans{
+            border-radius: 10px 0 0 10px;
+            background-color: $Orange;
+            button{
+                P{
+                    color: $Orange;
+                }
+    
+            }
+            button:hover{
+                background-color: $Orange;
+                border: 2px solid $whiteP;
+                P{
+                    color: $whiteP;
+                }
+            }
+        }
+        #card-column-SUVs{
+            background-color: $dCyan;
+            button{
+                P{
+                    color: $dCyan;
+                }
+            }
+            button:hover{
+                background-color: $dCyan;
+                border: 2px solid $whiteP;
+                P{
+                    color: $whiteP;
+                }
+            }
+        }
+        #card-column-Luxury{
+            border-radius: 0 10px 10px 0;
+            background-color: $vdCyan;
+            button{
+                P{
+                    color: $vdCyan;
+                }
+    
+            }
+            button:hover{
+                background-color: $vdCyan;
+                border: 2px solid $whiteP;
+                P{
+                    color: $whiteP;
+                }
+            }
+        }
+    }
+}

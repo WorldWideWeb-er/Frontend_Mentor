@@ -1,0 +1,46 @@
+//Color-Primary
+$Orange: hsl(31, 77%, 52%);
+$dCyan: hsl(184, 100%, 22%);
+$vdCyan:hsl(179, 100%, 13%);
+//Color-Neutrals
+$whiteP: hsla(0, 0%, 100%, 0.75);
+$grayBG: hsl(0, 0%, 95%);
+
+
+body{
+    display: flex;
+    justify-content: center;
+    height: 1502px;
+    #root{
+        .app{
+            background-color: $grayBG;
+            #challange-info{
+                padding: 0;
+            }
+        }
+    }
+}
+
+@media screen and (min-width:450px) {
+    body{
+        background-color: black;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        #root{
+            .App{
+                #challange-info{
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    flex-direction: column;
+                    background-color: $grayBG;
+                    height: 800px;
+                    width: 1440px;
+                    padding: 0;
+                }
+            }
+        }
+    }
+}

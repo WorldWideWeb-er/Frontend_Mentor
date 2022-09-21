@@ -1,0 +1,83 @@
+//Color-Primary
+$Orange: hsl(31, 77%, 52%);
+$dCyan: hsl(184, 100%, 22%);
+$vdCyan:hsl(179, 100%, 13%);
+//Color-Neutrals
+$whiteP: hsla(0, 0%, 100%, 0.75);
+$grayBG: hsl(0, 0%, 95%);
+
+#card-column-Luxury,
+#card-column-Sedans,
+#card-column-SUVs{
+    padding: 50px 50px;
+    #card-column-img{
+        padding: 0;
+    }
+    h1{
+        padding: 20px 0;
+        font-family: 'Big Shoulders Display';
+        font-weight: 700;
+        font-size: 40px;
+        color: $grayBG;
+        text-transform: uppercase;
+    }
+    p{
+        padding-right: 25px;
+        margin-bottom: 35px;
+        font-family: 'Lexend Deca';
+        font-weight: 400;
+        font-size: 15px;
+        line-height: 200%; 
+        color: $whiteP;
+        
+    }
+    button{
+       border-radius: 30px;
+        P{
+            padding: .3em 2em;
+            font-family: 'Lexend Deca';
+            font-weight: 400;
+            font-size: 15px;
+            margin: 0%;
+        }
+    }
+}
+
+@media screen and (min-width:450px) {
+    #card-column-Luxury,
+    #card-column-Sedans,
+    #card-column-SUVs{
+        padding: 50px 50px;
+        #card-column-img{
+            padding: 0;
+        }
+        h1{
+            padding: 20px 0;
+            font-family: 'Big Shoulders Display';
+            font-weight: 700;
+            font-size: 40px;
+            color: $grayBG;
+            text-transform: uppercase;
+        }
+        p{
+            padding-right: 0px;
+            margin-bottom: 75px;
+            font-family: 'Lexend Deca';
+            font-weight: 400;
+            font-size: 14px;
+            line-height: 170%; 
+            color: $whiteP;
+            
+        }
+        button{
+        border-radius: 30px;
+            P{
+                padding: .3em 1em;
+                font-family: 'Lexend Deca';
+                font-weight: 400;
+                font-size: 15px;
+                margin: 0%;
+            }
+        }
+    }
+}

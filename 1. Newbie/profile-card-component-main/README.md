@@ -21,7 +21,7 @@ This is a solution to the [Profile card component challenge on Frontend Mentor](
 
 ### Links
 
-- Solution URL: [Live Site](https://github.com/WorldWideWeb-er/Frontend_Mentor/tree/main/1.%20Newbie/qr-code-component-main)
+- Solution URL: [Live Site](https://github.com/WorldWideWeb-er/Frontend_Mentor/tree/main/1.%20Newbie/profile-card-component-main)
 - Live Site URL: [Live Site](https://wwweber-profilecard.netlify.app/)
 
 ## My process

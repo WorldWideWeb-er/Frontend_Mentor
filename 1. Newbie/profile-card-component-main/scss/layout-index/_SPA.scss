@@ -1,0 +1,109 @@
+@use "../utility" as u;
+body {
+	width: 100vw;
+	height: 100vh;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	background: url(../images/bg-pattern-bottom.svg) bottom -600px right -150px
+			no-repeat,
+		url(../images/bg-pattern-top.svg) top -500px left -200px no-repeat;
+	background-color: var(--blue);
+	.card {
+		width: 400px;
+		height: 425px;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		border-radius: u.rem(20);
+		background-color: white;
+		box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+		&__top {
+			flex: 0.3;
+			width: 100%;
+			img {
+				width: 100%;
+				border-radius: u.rem(19) u.rem(19) 0 0;
+			}
+		}
+		&__header {
+			flex: 0.5;
+			width: 100%;
+			display: flex;
+			justify-content: center;
+			&__img {
+				display: flex;
+				justify-content: center;
+				position: absolute;
+				transform: translate(0, -50%);
+				z-index: 1;
+				img {
+					border-radius: u.rem(50);
+					border: 5px solid white;
+				}
+			}
+			&__name {
+				display: flex;
+				flex-direction: column;
+				justify-content: flex-end;
+				margin-bottom: u.rem(40);
+				.top {
+					width: 100%;
+					display: flex;
+					justify-content: space-around;
+					margin-bottom: u.rem(20);
+					P {
+						font-weight: bold;
+						font-size: 24px;
+						color: hsl(229, 23%, 23%);
+						span {
+							color: hsl(227, 10%, 46%);
+							font-weight: normal;
+						}
+					}
+				}
+				.bottom {
+					text-align: center;
+					P {
+						color: hsl(227, 10%, 46%);
+						font-size: 18px;
+					}
+				}
+			}
+		}
+		&__info {
+			width: 100%;
+			display: grid;
+			grid-template-columns: repeat(3, 110px);
+			justify-content: center;
+			padding-top: u.rem(15);
+			border-top: 1px solid var(--white);
+			&__subsection {
+				display: flex;
+				flex-direction: column;
+				text-align: center;
+				P {
+					margin-bottom: u.rem(5);
+				}
+				.number {
+					font-size: 18px;
+					font-weight: 600;
+				}
+				p:last-of-type {
+					font-size: 12px;
+					font-weight: 400;
+					color: var(--lGray);
+				}
+			}
+		}
+	}
+}
+
+.attribution {
+	font-size: 11px;
+	text-align: center;
+}
+.attribution a {
+	color: hsl(228, 45%, 44%);
+}
